@@ -1,0 +1,22 @@
+// Ex 1.1: Vector and Matrix Operations
+clear; clc;
+
+disp("--- TASK 1 ---");
+x = 1:4;
+res1 = x + 1;
+disp("x = ", x);
+disp("(x1+1, x2+1, x3+1, x4+1) = ", res1);
+
+disp("--- TASK 2 ---");
+x = 1:4;
+y = 5:8;
+res2 = x .* y;
+disp("x = ", x);
+disp("y = ", y);
+disp("(x1y1, x2y2, x3y3, x4y4) = ", res2);
+
+disp("--- TASK 3 ---");
+x = linspace(0, %pi, 10);
+res3 = sin(x);
+disp("x = ", x);
+disp("sin(x) = ", res3);
